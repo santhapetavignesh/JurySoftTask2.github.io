@@ -1,0 +1,120 @@
+------------------product  details---------------------------
+
+product Api:................get Api
+
+product:{
+product_Name:,
+old_price:,
+new_price:,
+rating:..and...Start piont,
+product_image:,
+product_related_Gallary:[],
+review:[length],
+Sub_title:""  
+}
+
+cart api..............Api get
+cart{
+total amount:,
+items list:,
+}
+
+checkout{
+	product amount 
+	delivery fee
+	total cost
+	product weight
+}
+
+product based reviews store:.................get api
+
+Specification based...........................get api
+
+How to use...............................get api
+
+recently viewed products..............post and get Api
+
+Cart-------post and get APi and delete APi and Update Api
+
+Chectout---Api
+
+
+
+Rating_image=[]
+
+Related_products=[{}]
+
+Recently_viewed_products=[{}]
+
+Cart=[{}]
+
+Checkout=[{}]
+
+
+
+
+{
+    "review": {
+        "review_image": [
+            "https://www.pixelstalk.net/wp-content/uploads/2016/05/Beautiful-Girl-Hd-Wallpapers-1080p-Images.jpg",
+            "https://toplop.com/media/images/profile/46/463328_96918.jpg",
+            "https://www.angelopedia.com/ContestentPageantYear/2WL6Y132IUAlinaRoskach.jpg"
+        ],
+        "review_name": [
+            "Lana Steiner",
+            "Emily",
+            "Sophia"
+        ],
+        "review_date": [
+            "Jun 18, 2023",
+            "August 10, 2023",
+            "September 5, 2023"
+        ],
+        "review_data": [
+            "I'm absolutely in love with the clothes I bought from this multi-vendor app! couldn't resist. The quality is top-notch, and the sizing was accurate, which is a relief when shopping online. The prices are reasonable, and the delivery was quicker than expected. will definitely shop here again!",
+            "I recently ordered a dress from this platform, and i'm thrilled with my purchase! The dress fits like a glove and the quality is exceptional. I wore it to a special event and received so amny compliments. will definitely be shopping here again!",
+            "I'm not usually a fan of online shopping for clothes, but this app changed my mind.I bought a pair of jeans and a shirt, and both items were true to size and lokked even better in person. The delivery was prompt, and I appreciate the effort the sellers put into accurate product descriptions"
+        ]
+    },
+    "id": 1,
+    "product_Name": "Cetaphil MOISTURISING CREAM",
+    "Sub_title": " Cleanse & Exfoliate-for Normal to Dry Skin",
+    "product_image": "https://rukminim2.flixcart.com/image/416/416/xif0q/moisturizer-cream/z/d/p/-original-imagq43ju4hzyp2e.jpeg?q=70",
+    "old_price": 508,
+    "new_price": 406,
+    "rating": 4.3,
+    "tax_details": "Price incl. of all taxes",
+    "product_related_Gallary": [
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/z/d/p/-original-imagq43ju4hzyp2e.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/face-wash/x/t/q/-original-imagssr2jhvzbzzv.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/0/6/z/-original-imagq43j9zacmcm6.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/2/0/p/-original-imagq43jujkq7ezw.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/c/6/d/-original-imagq43jcp3hzqf4.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/a/i/j/-original-imagq43j4fgzfjnf.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/1/e/b/-original-imagq43jvvhkgf8y.jpeg?q=70",
+        "https://rukminim2.flixcart.com/image/128/128/xif0q/moisturizer-cream/l/0/w/-original-imagq43jjgkmtu8c.jpeg?q=70"
+    ],
+    "specification": [
+        "this foam-based, non drying, rejuvenating face wash contains Alpha Hydroxy Acid to gently exfoliate your skin, ensures the pores are less likely to clog, improving the skin tone and texture. it's fortofied with aloe vera and Vitamin E to keep the skin hydrated.Active Ingrefients:",
+        "AHA exfoliates the outer skin layer and makes your skin look brighter and younger",
+        "Aloe-vera to give your skin deeper hydration",
+        "CureoSkin Guarantee:",
+        "Paraben-Free",
+        "Clincally Tested & Dermatologists Approved",
+        "Trusted by 12 lakhs users.",
+        "For best results, use this with CureoSkin Broad Spectrum Sunscreen"
+    ],
+    "how_to_use": [
+        "Preparation: Start by wetting your face with lukewarm water.Ensure your hands are clean.",
+        "Dispense the product: Seqeeze a small amount of the face wash onto your fingertips. A little goes a long way.",
+        "Apllicatin:gently apply the product to your wet face. Use circular, upward motions to work the foam into your skin. Avoid harsh rubing, as this can irritate the Skin",
+        "Massage: Continue to massage the face wash into your skin for about 20-30 seconds.pay attention to areas prone to clogged pores or dullness.",
+        "Avoid Eye Area: be cautions not to get the products into your eyes. If it comes into contact with your eyes, rinse thoroghly with water",
+        "Rinse Thoroughly: After massaging, thoroughly rinse your face with lukewarm water. Ensure all traces of the face wash are removed",
+        "Pat Dry:Gently pat your face dry with a clean,sofet towel.Avoid harsh rubbing, as this can cause skin irrittion.",
+        "Follow Up: for Optimal results, foolow up with a suitable moisturizer if needed. if it's daytime, remember to apply ureoSkin Broad Spectrum Sunscreen as recommended.",
+        "Frequency:Depending on your skin type and concerns, use the face wash in your daily skincare routine. However, if you have sensitive skin, it's advisable to start with every other day to gauge how your skin responds.",
+        "Storage: Store the product in a cool, dry place and keep the cap tightly closed to prevent any contamination"
+    ],
+    "Category": "creams"
+}
